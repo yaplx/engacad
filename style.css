@@ -29,22 +29,34 @@ padding: 10px;
 
 ul{
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   width: 180px;
 }
 
-
+a:link{
+  text-decoration: none;
+  color: dodgerblue;
+}
+a:visited{
+  text-decoration: none;
+  color: dodgerblue;
+}
+a:hover{
+  text-decoration: none;
+  color: #55F742;
+}
+a:active{
+  background-color: white;
+  color: dodgerblue;
+}
 
 li{
   display: block;
-  background-color: #66CCFF;
-  color: black;
-  padding 8px 16px;
-  text-decoration: none;
+
 }
 
-li.nested{
+.nested{
   padding-left: 30px;
 }
 
@@ -56,7 +68,7 @@ li.nested{
 #footer{
   clear: both;
   padding: 10px;
-  background-color: #999999;
-  color: white;
+  background-color: white;
+  color: black;
   text-align: right;
 }
