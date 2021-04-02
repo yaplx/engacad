@@ -26,12 +26,18 @@ padding: 10px;
   float: left;
   padding-bottom: 20px;
 }
+#page{
+  background-color: white;
+}
 
 ul{
   list-style-type: none;
   margin: 0px;
   padding: 0px;
   width: 180px;
+}
+ol{
+  list-style-type: circle;
 }
 
 a:link{
@@ -51,13 +57,12 @@ a:active{
   color: dodgerblue;
 }
 
-li{
+li a{
   display: block;
-
 }
 
 .nested{
-  padding-left: 30px;
+  margin-left: 30px;
 }
 
 #about{
