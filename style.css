@@ -70,9 +70,15 @@ li a{
   margin-left: 30px;
 }
 
-#about{
+#content{
   width: 600px;
   float: right;
+}
+
+#content .imagetxt{
+  margin-top: 0;
+  text-align: center;
+  color: orange;
 }
 
 #footer{

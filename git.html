@@ -6,15 +6,15 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div id="header">
-      <h1>Ye Lxuan's Website: Git</h1>
-    </div>
     <div id="container">
+      <div id="header">
+        <h1>Ye Lxuan's Website: Git</h1>
+      </div>
       <div id="nav">
         <h3>Navigation</h3>
         <ul id="page">
           <li><a href="index.html"/>Home</a></li>
-          <li><a href="myproject.html"/>My Project</a></li>
+          <li style="color:dodgerblue">My Project</li>
           <ul>
               <li class="nested"><a href="git.html"/>Git</a></li>
               <li class="nested"><a href="fusion.html"/>Fusion</a></li>
@@ -23,9 +23,25 @@
           <li><a href="aboutme.html"/>About me</a></li>
         </ul>
       </div>
-      <p>At the begining, we must clone the URL to the Git Desktop as shown below</p>
-      <img src="/images/clone.jpg" alt="Cloning repository to Git Desktop" width="400px" height="250px">
-      <p>hi</p>
+      <div id="content">
+        <p>At the begining, we must clone the URL to the Git Desktop as shown below
+          <img src="images/clone.jpg" alt="Cloning repository to Git Desktop" width="400px" height="250px">
+          <br>Image1: Cloning repository to Git Desktop
+        </p>
+        <p>Next, we can edit the file using text editor such as Atom etc.After we edit
+          the file, we can know the modification made using Git Desktop and then commit the changes.
+          <img src="images/git.jpg" alt="Git on Git Desktop" width="500px" height="300px">
+          <br>Image2: Git on Git Desktop
+        </p>
+        <p>Lastly, push the file to remote repository.
+          <img src="images/push.jpg" alt="Push to Remote Repository" width="400px"height="150px">
+          <br>Image3: Push to Origin
+        </p>
+        <p>Besides that, Git Desktop allow us to check the history of the repository which is the left hand bar.
+          <br><img src="images/versioncheck.jpg" alt="Version Check for repository"width="500px"height="300px">
+          <br>Image4: Version Check for repository
+        </p>
+      </div>
     <div id="footer">
       Copyright &copy; YeLxuan
     </div>
