@@ -4,7 +4,7 @@ body{
 
 #container{
 background-color: white;
-width: 1024px;
+width: 800px;
 margin-left: auto;
 margin-right: auto;
 padding: 10px;
@@ -71,7 +71,7 @@ li a{
 }
 
 #content{
-  width: 824px;
+  width: 600px;
   float: right;
 }
 
