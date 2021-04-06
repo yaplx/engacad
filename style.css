@@ -17,27 +17,34 @@ padding: 10px;
   padding: 10px;
 }
 
-.return{
-  text-align: left;
-}
-
-#content {
-  padding:0px 10px 10px 10px;
+#main{
+  margin:10px;
 }
 
 #nav{
   width: 180px;
   float: left;
-  padding-bottom: 20px;
   height: 100%;
   background-color: white;
 }
 
+li a{
+  display: block;
+}
+
+.nested{
+  display: none;
+}
+#nav .subtitle:hover .nested{
+  display:  block;
+  position: static;
+  padding-left: 20px;
+}
+
 ul{
   list-style-type: none;
-  margin: 0px;
-  padding: 0px;
-  width: 180px;
+  width: auto;
+  padding-left: 0px;
 }
 ol{
   list-style-type: circle;
@@ -60,19 +67,9 @@ a:active{
   color: dodgerblue;
 }
 
-li a{
-  display: block;
-}
-
 #content{
   width: 600px;
   float: right;
-}
-
-#content .imagetxt{
-  margin-top: 0;
-  text-align: center;
-  color: orange;
 }
 
 #footer{
