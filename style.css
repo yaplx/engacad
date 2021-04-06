@@ -36,7 +36,7 @@ li a{
   display: none;
 }
 #nav .subtitle:hover .nested{
-  display:  block;
+  display:  flow-root;
   position: static;
   padding-left: 20px;
 }
