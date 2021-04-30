@@ -8,7 +8,7 @@
   <body>
     <div id="container">
       <div id="header">
-        <h1>Ye Lxuan's Website</h1>
+        <h1>MasterCam</h1>
       </div>
       <div id="main">
         <div id="nav">
@@ -27,19 +27,27 @@
           </ul>
         </div>
         <div id="content">
-          <h3>About</h3>
-          <p>This is a website for my project documentation starting from 2021. </p>
-          <p>This is my first time to make my own html website using github.
-            and I have learn something useful such as:</p>
-            <ul class="lista">
-              <li>html website</li>
-              <li>formatting using css</li>
-              <li>git</li>
-            </ul>
-          <p>At the beginning, I have made some mistakes because I was new to it.
-            One of the mistakes are I kept pushing my code from Git Desktop without
-            commiting the changes. I solved it by go through the online material and now
-            I feel that I manage to do a simple website by my own.</p>
+          <h3>Work Flow</h3>
+          <img src="images/turning.jpg" alt="Turning Work flow" width="600px"height="300px">
+          <br>
+          <h4>Important Setting</h4>
+          <ol>
+          <li>  Toolpath Manager > Properties > Files
+            <dd><b>Check for tool library and program number</b> and set workpiece dimension.</dd></li>
+          <li>Menu Bar > Turning > Part Handling_Stock Adv>
+            <dd>Blank original geometry</dd>
+            <dd>Transferred Position: 1</dd>
+            <dd>Stock Clearance: 1</dd> </li>
+          <li>Rough Facing
+          <dd> <b>Stock to leave :</b> 0.3 </dd> </li>
+          <li>OD Roughing
+            <dd><b>Stock to leave in X :</b> 0.8</dd>
+            <dd><b>Stock to leave in Z :</b> 0.1</dd>
+            <dd>Stock Recognition: Use stock for outer boundary</dd>
+            <dd>Lead out 4.5 (Extend)</dd> </li>
+          <li>OD Grooving
+            <dd>Use stock for outer boundarys</dd> </li>
+          </ol>
         </div>
       </div>
       <div id="footer">

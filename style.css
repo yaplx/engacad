@@ -47,7 +47,11 @@ ul{
   padding-left: 0px;
 }
 ol{
+  list-style-type: number;
+}
+ul.lista{
   list-style-type: circle;
+  padding-left: 40px;
 }
 
 a:link{
